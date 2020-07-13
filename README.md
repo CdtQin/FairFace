@@ -19,3 +19,7 @@ Second, you should extract feature with the by this command: sh auto_run_extract
 Third, three feature files will be generated after the second step. They should be test.fea.noFlip, test.fea.Flip, and test.fea.mean
 
 Finally, you can generate prediction via generate_result.py
+
+Enviroment:
+
+Please try Cuda 9.1, Cudnn 7.0, and TensorFlow 1.8
