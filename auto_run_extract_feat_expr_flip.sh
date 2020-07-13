@@ -4,17 +4,15 @@ GPU_NUM=8
 GPU_DEVICE='0,1,2,3,4,5,6,7'
 BATCH_SIZE=2048
 
-MODEL_PATH=graph.proto
-
-KEY=key.fea
+MODEL_PATH=graph.proto # This is the path to pb model file.
 
 DATA_PATHS=(
-data.list
+data.list # This is the path to the list file of cropped image
 )
 
-OUTPUT_DIR=/OUTPUT_DIR
+OUTPUT_DIR=/OUTPUT_DIR # This is the path of output feat. Feat file will be a text file that can be open and read via vim.
 OUTPUT_PATHS=(
-${OUTPUT_DIR}/test_${KEY}
+${OUTPUT_DIR}/test.fea
 )
 
 SUFFIX='_new'
