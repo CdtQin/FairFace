@@ -5,7 +5,6 @@ from __future__ import print_function
 import os
 import tensorflow as tf
 import numpy as np
-_ops = tf.load_op_library('ops.so') 
 
 FLAGS = tf.app.flags.FLAGS
 tf.app.flags.DEFINE_integer('image_size', 248,
