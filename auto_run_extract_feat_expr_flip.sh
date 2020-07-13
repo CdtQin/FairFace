@@ -10,7 +10,7 @@ DATA_PATHS=(
 data.list # This is the path to the list file of cropped image
 )
 
-OUTPUT_DIR=/OUTPUT_DIR # This is the path of output feat. Feat file will be a text file that can be open and read via vim.
+OUTPUT_DIR=/OUTPUT_DIR # This is the directory path of output feat. Feat file will be a text file that can be open and read via vim.
 OUTPUT_PATHS=(
 ${OUTPUT_DIR}/test.fea
 )
