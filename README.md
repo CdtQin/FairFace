@@ -10,7 +10,7 @@ We applied several large private datasets that can provide a lot of subjects wit
 
 These datasets are not only used for classification but also be used to estimate the distributions. We add constrains, namely kl_loss, entropy_loss and order_loss, on these estimated distributions. Here is a paper reference: https://arxiv.org/abs/2002.03662
 
-To train with this model, please call the function loss() at line 556. All the arguments of this fuction are lists of tensors, each of them represents a branch, and you can easily get what the tensors should contain from the name of arguments.
+To train with this model, please call the function loss() at line 556. All the arguments of this fuction are lists of tensors, an d each of them represents a branch. You can easily get what those tensors should contain from the name of arguments.
 
 For inference:
 
