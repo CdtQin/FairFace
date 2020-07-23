@@ -10,6 +10,8 @@ We applied several large private datasets that can provide a lot of subjects wit
 
 These datasets are not only used for classification but also be used to estimate the distributions. We add constrains, namely kl_loss, entropy_loss and order_loss, on these estimated distributions. Here is a paper reference: https://arxiv.org/abs/2002.03662
 
+To train with this model, please call the function loss() at line 556.
+
 For inference:
 
 First, you should crop images. Here we provide a file (record.txt) that contain either five landmarks or bounding boxes for each image. You can use file affine_crop.py to crop face out. Each cropped image will be generated at the same position as the original one. If a raw image has name 1.jpg, the cropped image will be named 1_croppped.jpg
