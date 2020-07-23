@@ -2,7 +2,7 @@
 
 For training method:
 
-Please check the factsheet.pdf for detail.
+Our main method lies in two parts, multi-branch training and similarity distribution manipulation. We conduct classification on different branches. Besides, we estimate the similarity distributions for these branches and add constrains on them. These two parts contribute to both the accuracy improvement and the alleviation of bias among different groups.
 
 model.py is the main training file that includes the multi-branch data training, the CNN architecture, which is modified from ResNet101, and the loss functions.
 
